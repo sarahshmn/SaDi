@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "CaveatRegular";
+  src: url(fonts/SingwayRegular-ZVl2B.ttf) format('truetype');
+}
+body {
+  background: black;
+  color: white;
+  font-family: "CaveatRegular";
+  cursor: url(curser.png),pointer;
+  overflow: hidden;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  z-index: 10;
+}
+a:hover {
+  cursor: url(curserhaver.png),pointer;
+  transition: 0.3s;
+  z-index: 10;
+}
+ul.home {
+  display: inline;
+  z-index: 100;
+}
+
+li.home {
+  display: inline;
+  color: white;
+  margin: 30px;
+  z-index: 100;
+}
+
+li.home a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+  opacity: 0.5;
+  z-index: 100;
+}
+
+li.home:hover {
+  cursor: url(curserhaver.png),pointer;
+  z-index: 100;
+}
+
+li.home a:hover {
+  opacity: 1;
+  transition: 0.3s;
+  z-index: 100;
+}
+
+ul.home {
+  margin-top: 10px;
+  z-index: 100;
+  position: relative;
+}
+
+ul.list-cal {
+  display: block;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /* width: auto; */
+}
+
+li.list-cal {
+  font-size: 74px;
+  display: inline-block;
+  opacity: 0.2;
+  transition: 0.3s;
+  padding: 10px 26px;
+  z-index: 10;
+  position: relative;
+}
+
+li.list-cal:hover {
+  opacity: 1;
+  transition: 0.3s;
+
+}
+
+header {
+  margin-top: 10px;
+  z-index: 100;
+}
+
+
+.col-8.bx-img {position: relative;overflow: hidden;width: 50%;}
+
+.img-one {
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.handy-path {
+  position: absolute;
+  display: inline-block;
+  top: 190px;
+  right: 290px;
+  overflow: visible;
+  width: 57%;
+  height: 50%;
+}
+
+.handy-path3 {
+  position: absolute;
+  display: inline-block;
+  bottom: -10%;
+  right: 290px;
+  overflow: visible;
+  width: 57%;
+  height: 50%;
+}
