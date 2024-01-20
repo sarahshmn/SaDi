@@ -1,12 +1,12 @@
 @font-face {
   font-family: "CaveatRegular";
-  src: url(fonts/SingwayRegular-ZVl2B.ttf) format('truetype');
+  src: url(fonts/SingwayRegular-ZVl2B.ttf) format("truetype");
 }
 body {
   background: black;
   color: white;
   font-family: "CaveatRegular";
-  cursor: url(curser.png),pointer;
+  cursor: url(curser.png), pointer;
   transition: 0.3s;
   background-image: url(img/right-one1.png);
   background-position: top;
@@ -16,7 +16,7 @@ body {
 }
 
 button:hover {
-  cursor: url(curserhaver.png),pointer;
+  cursor: url(curserhaver.png), pointer;
   z-index: 10;
 }
 button {
@@ -29,7 +29,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  cursor: url(curserhaver.png),pointer;
+  cursor: url(curserhaver.png), pointer;
   transition: 0.3s;
   z-index: 10;
 }
@@ -70,9 +70,8 @@ li.home a {
 }
 
 li.home:hover {
-  cursor: url(curserhaver.png),pointer;
+  cursor: url(curserhaver.png), pointer;
 }
-
 
 .back {
   background-color: black;
@@ -97,7 +96,6 @@ li.home:hover {
   position: absolute;
   z-index: 10;
 }
-
 
 .info-home {
   display: flex;
@@ -152,10 +150,11 @@ header {
   margin-top: 10px;
 }
 
-
 h1 {
   margin: 0 0 0 6%;
   font-size: 48px;
 }
 
-
+img.icon {
+  width: 5%;
+}
